@@ -1,0 +1,23 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "demonstrates the usage of redis for a small bookstore",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkawal/bookstore.git"
+  },
+  "author": "Kawaljit Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamkawal/bookstore/issues"
+  },
+  "homepage": "https://github.com/iamkawal/bookstore#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "redis": "^4.0.4"
+  }
+}
