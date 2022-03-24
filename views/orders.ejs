@@ -1,0 +1,25 @@
+<%- include('./partials/header'); %>
+
+    <div class="row">
+        <h1 class="mb-5">Welcome Admin!</h1>
+        <h5 class="mb-5 mt-3">All orders</h6>
+
+        <div style="width: 40%;">
+             <ul class="list-group list-group-flush">
+                <% orders.forEach(function(order) { %>
+                <li class="list-group-item  d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>
+                            <%= order.bookName %>
+                        </strong>
+                    </div>
+                    <small>
+                        <%= new Date(order.timestamp).toLocaleString() %>,
+                    </small>
+                </li>
+                <% }); %>
+            </ul>
+        </div>
+    </div>
+
+<%- include('./partials/footer'); %>
