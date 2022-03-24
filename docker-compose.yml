@@ -15,7 +15,3 @@ services:
       - 3000:3000
     environment:
       - REDIS_URL=redis://cache
-      - NODE_ENV=development
-      - PORT=3000
-    command:
-      sh -c 'npm i && node app.js'

@@ -4,7 +4,8 @@
   "description": "demonstrates the usage of redis for a small bookstore",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/iamkawal/bookstore#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "redis": "^4.0.4"
+    "redis": "^4.0.4",
+    "ejs": "^3.1.6"
   }
 }
