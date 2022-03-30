@@ -1,4 +1,3 @@
-const { v4: uuidv4 } = require('uuid');
 const express = require('express');
 const redis = require('redis');
 const bodyParser = require('body-parser')
